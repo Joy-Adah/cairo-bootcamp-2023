@@ -61,6 +61,7 @@ mod Class_Demo {
     #[external(v0)]
     fn get_reward_balance(self: @ContractState) -> u256 {
         self.reward_balance.read()
+    }
 
 
     #[external(v0)]
